@@ -74,7 +74,7 @@ if __name__ == '__main__':
     zhi = ZhiDaoSearch()
     zhi.search('PYTHON')
     for ques in zhi.results :
-        print(ques['time'] +' $ '+ ques['title'])
+        print(ques['time'] +'  '+ ques['title'])
 
 
 
